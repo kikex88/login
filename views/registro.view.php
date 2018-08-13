@@ -19,7 +19,7 @@
 
       <div class="input-group">
         <i class="fa fa-lock icons" aria-hidden="false"></i>
-        <input type="password" name="contraseña" placeholder="Contraseña" class="form-control">
+        <input type="password" name="password" placeholder="Contraseña" class="form-control">
       </div>
 
       <div class="input-group">
@@ -29,6 +29,12 @@
           <option value="usuario">Usuario</option>
         </select>
       </div>
+
+      <?php if (!empty($errores)): ?>
+        <ul>
+          <?php echo $errores; ?>
+        </ul>
+      <?php endif; ?>
 
       <button type="submit" name="submit" class="btn btn-flat-green">Ingresar</button>
     </form>

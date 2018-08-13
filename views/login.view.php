@@ -19,7 +19,7 @@
 
       <div class="input-group">
         <i class="fa fa-lock icons" aria-hidden="false"></i>
-        <input type="password" name="contraseña" placeholder="Contraseña" class="form-control">
+        <input type="password" name="password" placeholder="Contraseña" class="form-control">
       </div>
 
       <button type="submit" name="submit" class="btn btn-flat-green">Ingresar</button>
