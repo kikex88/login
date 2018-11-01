@@ -22,7 +22,7 @@
         <input type="password" name="password" placeholder="Contraseña" class="form-control">
       </div>
 
-      <button type="submit" name="submit" class="btn btn-flat-green">INGRESAR</button>
+      <button type="submit" name="submit" class="btn btn-flat-green">INGRESARg</button>
     </form>
 
     <a href="#" class="login-link">¿NO TIENE CUENTA?</a>
